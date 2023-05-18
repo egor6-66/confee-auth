@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+
+  .arrowBack {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+  }
+
+  .requestCodeForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+

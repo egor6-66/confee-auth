@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--main-active);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  will-change: transform;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(0.99);
+  }
+
+  &_inactive {
+    background-color: var(--button-inactive);
+  }
+}

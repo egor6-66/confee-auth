@@ -1,0 +1,29 @@
+@import "~normalize.css/normalize.css";
+
+html, body, #root{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+  --bg-outside: rgba(214, 225, 242, 1);
+  --bg-0: rgba(239, 242, 247, 1);
+  --bg-1: #FAFAFC;
+  --bg-2: #FFFFFF;
+  --bg-3: #FFFFFF;
+  --bg-01: rgba(255, 255, 255, 1);
+  --bg-02: #E8ECF3;
+  --bg-03: #DDE4EF;
+  --gradient-1: #0078E7;
+  --text-0: #2A313C;
+  --text-1: #717394;
+  --main-active: #7B57C8;
+  --icon-inactive: #A5ABD7;
+  --button-inactive: #C3C4E4;
+  --stroke-1: #C6D1DE;
+  --stroke-2: rgba(214, 225, 242, 1);
+  --border-color:#D9D9D9;
+}
